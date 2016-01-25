@@ -5,14 +5,16 @@ public class Leaf {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		while (sc.hasNextInt()) {
+
+
 			int n = sc.nextInt();
 			int l = 0;
 			if (n >= 0 && n <= 1000) {
-				for (int i = n; i > 0; i--) {
-					l += (n - 1) * 2+1;
-					System.out.println(l);
-				}
-				System.out.println(l);
+				//for (int i = n; i > 0; i--) {
+					//l += (n - 1) * 2+1;
+					//System.out.println(l);
+system.out.println("kkkfk")
+				}				System.out.println(l);
 			}
 		}
 	}
