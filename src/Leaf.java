@@ -5,6 +5,8 @@ public class Leaf {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		while (sc.hasNextInt()) {
+
+
 			int n = sc.nextInt();
 			int l = 1;
 			if (n >= 0 && n <= 1000) {
